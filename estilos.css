@@ -1,0 +1,25 @@
+body {
+        background-image: url("fondo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.cont_principal{
+    background-color: white;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 30px;
+    border: 15px solid white;
+}
+
+.caja{
+    box-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+}
+
+.caja div{
+    padding: 10px;
+    margin: 1px;
+    width: 1px;
+    border: 1px;
+}
