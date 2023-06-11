@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+</head>
+<body>
+    <script src="main.js"></script>
+    <div>
+        <header>
+            <h1>LA RULETA BOLIVIANA</h1>
+            <h2>¿De que se trata?</h2>
+            <p>En la busqueda de un mejor futuro, todas las personas tratan de esforzarse en algo productivo. 
+                Pero cuando esto no resulta, puedes acudir al azar para conseguir ese futuro.
+            </p>
+            <p>*ingresa un cantidad de dinero</p>
+            <p>*escoje un numero del 1 al 9</p>
+            <p>*si tu numero se repite 3 veces ganas el doble de lo apostado y un auto</p>
+            <p>*si tu numero se repite 2 veces puedes retirar tu monto intecto</p>
+            <p>*si tu numero se repite 1 vez pierdes tu monto o seguir jugando si doblas la apuesta</p>
+
+        </header>
+        <main>
+            <h3>¿Cual sera tu suerte?</h3>
+            <form>
+                <label>Ingrese Monto de apuesta</label><br>
+                <input type="number" min="1" id="apu">Bs.</input><br>
+                <label>Escoje un numero</label><br>
+                <input type="number" min="1" max="9" id="num"></input>
+                <br>
+                <button onclick="ale()"></button>
+            </form>
+            <h3>Tu Suerte</h3>
+            <div>
+                <div id="num1"></div>
+                <div></div>
+                <div></div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
